@@ -4,7 +4,7 @@
     <name>
       <brand>Basicfil</brand>
       <material>PETG</material>
-      <color>Black</color>
+      <color>Schwarz</color>
       <label>PET schwarz</label>
     </name>
     <version>3</version>
@@ -20,8 +20,8 @@
   <settings>
     <setting key="heated bed temperature">50.0</setting>
     <setting key="retraction amount">4.5</setting>
-    <setting key="print cooling">75.0</setting>
-    <setting key="print temperature">235.0</setting>
+    <setting key="print cooling">100.0</setting>
+    <setting key="print temperature">240.0</setting>
     <setting key="standby temperature">120</setting>
   </settings>
 </fdmmaterial>

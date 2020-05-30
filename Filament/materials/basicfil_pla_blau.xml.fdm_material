@@ -4,26 +4,26 @@
     <name>
       <brand>Basicfil</brand>
       <material>PLA</material>
-      <color>blau</color>
+      <color>Lichtblau</color>
       <label>PLA Blau</label>
     </name>
-    <description>Fast, safe and reliable printing. PLA is ideal for the fast and reliable printing of parts and prototypes with a great surface quality.</description>
     <adhesion_info>Print on bare glass. Use tape for cold build plates.</adhesion_info>
     <GUID>a889d100-80bc-4951-baf0-a23007a196ed</GUID>
     <color_code>#729fcf</color_code>
     <version>7</version>
+    <description>Fast, safe and reliable printing. PLA is ideal for the fast and reliable printing of parts and prototypes with a great surface quality.</description>
   </metadata>
   <properties>
-    <density>1.24</density>
     <diameter>1.75</diameter>
+    <density>1.24</density>
   </properties>
   <settings>
     <setting key="print temperature">195.0</setting>
     <setting key="surface energy">100</setting>
     <setting key="standby temperature">175</setting>
-    <setting key="build volume temperature">28</setting>
     <setting key="adhesion tendency">0</setting>
     <setting key="retraction amount">4.0</setting>
     <setting key="heated bed temperature">45.0</setting>
+    <setting key="build volume temperature">28</setting>
   </settings>
 </fdmmaterial>
