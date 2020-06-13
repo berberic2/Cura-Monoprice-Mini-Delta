@@ -4,8 +4,8 @@
     <name>
       <brand>Extrudr</brand>
       <material>GreenTex Pro</material>
-      <color>Natur</color>
-      <label>GreenTec Pro</label>
+      <color>Natur (RAL 1013 perlweiß)</color>
+      <label>GreenTec Pro Natur</label>
     </name>
     <GUID>9cb7dde9-fbdd-48f7-bf0a-0aaf68d9083c</GUID>
     <color_code>#ddd4c3</color_code>
@@ -25,5 +25,7 @@
     <setting key="print temperature">220.0</setting>
     <setting key="surface energy">100</setting>
     <setting key="retraction amount">4.0</setting>
+    <cura:setting key="material_flow">105</cura:setting>
+    <cura:setting key="material_flow_layer_0">105</cura:setting>
   </settings>
 </fdmmaterial>
