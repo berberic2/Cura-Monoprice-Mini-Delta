@@ -22,7 +22,7 @@
         "machine_name": { "default_value": "MP Mini Delta" },
 		"machine_start_gcode":
 		{
-			"default_value":"; Calibration part starts here \nM92 X114.28 Y114.28 Z114.28 \nM666 Z-0.279 X0.0 Y-0.235\nM665 L122.3 R63.4026\n; Calibration part ends here \n\nG21\nG28 ; start from home position \nG29 ; Level Bed\nG1 Z50 F2400 ; 5cm up\nG92 E0 ; reset extrusion distance\nG1 F200 E40 ; extrude 40mm of feed stock\nG92 E0\nG4 S5 ; Pause for 5 seconds to allow time for cleaning the nozzle and build plate if needed\n"
+			"default_value":"; Calibration part starts here \nM92 X114.28 Y114.28 Z114.28 \nM666 Z-0.279 X0.0 Y-0.235\nM665 L122.3 R63.4026\n; Calibration part ends here \n\nG21\nG28 ; start from home position \nG29 ; Level Bed\nG1 Z50 F2400 ; 5cm up\nG4 S30 ; wait to allow bedtemperature to recover\nG92 E0 ; reset extrusion distance\nG1 F200 E40 ; extrude 40mm of feed stock\nG92 E0\nG4 S5 ; Pause for 5 seconds to allow time for cleaning the nozzle and build plate if needed\n"
 		},
 		"machine_end_gcode":
 		{		
