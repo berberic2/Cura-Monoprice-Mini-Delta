@@ -22,7 +22,7 @@
     <setting key="adhesion tendency">0</setting>
     <setting key="build volume temperature">28</setting>
     <setting key="heated bed temperature">45.0</setting>
-    <setting key="print temperature">220.0</setting>
+    <setting key="print temperature">230.0</setting>
     <setting key="surface energy">100</setting>
     <setting key="retraction amount">4.0</setting>
     <cura:setting key="material_flow">105</cura:setting>
